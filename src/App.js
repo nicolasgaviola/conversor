@@ -4,7 +4,7 @@ import Conversor from './components/Conversor'
 const App = () => {
   return (
     <div className="container text-center">
-      <h1 className="display-3">Conversor</h1>
+      <h1 className="display-3 mt-2">Conversor</h1>
       <hr />
       <div className="alert alert-secondary d-flex align-items-center" role="alert">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
