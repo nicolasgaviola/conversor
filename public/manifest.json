@@ -1,6 +1,7 @@
 {
   "short_name": "Conversor",
   "name": "Conversor",
+  "description": "Aplicación para convertir pesos argentinos a dólares estadounidenses",
   "icons": [
     {
       "src": "favicon.png",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#fff",
   "background_color": "#ffffff"
 }
