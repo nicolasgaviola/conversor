@@ -12,7 +12,12 @@ const NumberInput = ({ valor }) => {
     const [numeros, setNumeros] = useState(0);
 
     const handleChange = (e) => {
-        setNumeros(parseFloat(e.target.value));
+        const valorCalcular = e.target.value;
+        if (valorCalcular > 0) {
+            setNumeros(parseFloat(e.target.value));
+        } else {
+            setNumeros(parseFloat(0));
+        }
     };
 
     const calcular = () => numeros * valorDolar;
