@@ -7,7 +7,7 @@ import {faExchangeAlt} from '@fortawesome/free-solid-svg-icons' // Se agrega ico
 
 const NumberInput = ({ valor }) => {
 
-    const valorDolar = 101.65;
+    const valorDolar = 103.78;
 
     const [numeros, setNumeros] = useState(0);
 
